@@ -9,8 +9,8 @@ import java.util.Properties;
 @Service
 public class EmailSender {
    public  void sendEmail(String location) {
-        final String username = "olasunkanmizik@gmail.com";
-        final String password = "ovdf xwbu ypoq ssdi";
+        final String username = "################";
+        final String password = "##################";
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
